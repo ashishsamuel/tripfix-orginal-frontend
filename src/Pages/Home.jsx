@@ -3,9 +3,10 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './Home.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import MasonryImagesGallery from './MasonryImagesGallery';
 // import FeaturedTours from '../Components/FeaturedTours';
 // import MasonryImagesGallery from './MasonryImagesGallery';
-// import Testimonial from '../Components/Testimonial';
+import Testimonial from '../Components/Testimonial';
 // import Newsletter from '../shared/Newsletter';
 // import { BASE_URL } from '../utils/config';
 // import { useNavigate } from 'react-router-dom';
@@ -127,7 +128,7 @@ function Home() {
             </Col>
           </Row>
         </Container>
-        {/* <section className="mt-5">
+        <section className="mt-5">
           <Container>
             <Row>
               <Col sm={12} md={12} lg={3} xl={3}>
@@ -150,7 +151,7 @@ function Home() {
 
             
           </Container>
-        </section> */}
+        </section>
 
         <section>
           <Container>
@@ -214,7 +215,7 @@ function Home() {
               <h2 className='gallery_title'>Visit our customers tour gallery</h2>
               </Col>
               <Col lg={12}>
-                {/* <MasonryImagesGallery/> */}
+                <MasonryImagesGallery/>
               </Col>
             </Row>
           </Container>
@@ -230,7 +231,7 @@ function Home() {
               <h2 className="testimonial_title">What our fans say about us</h2>
               </Col>
               <Col lg={12}>
-                {/* <Testimonial/> */}
+                <Testimonial/>
               </Col>
             </Row>
           </Container>
