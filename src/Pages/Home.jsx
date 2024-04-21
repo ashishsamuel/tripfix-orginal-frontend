@@ -7,6 +7,7 @@ import MasonryImagesGallery from './MasonryImagesGallery';
 // import FeaturedTours from '../Components/FeaturedTours';
 // import MasonryImagesGallery from './MasonryImagesGallery';
 import Testimonial from '../Components/Testimonial';
+import Newsletter from '../Shared/Newsletter';
 // import Newsletter from '../shared/Newsletter';
 // import { BASE_URL } from '../utils/config';
 // import { useNavigate } from 'react-router-dom';
@@ -237,7 +238,7 @@ function Home() {
           </Container>
         </section>
         
-        {/* <Newsletter/> */}
+        <Newsletter/>
         <ToastContainer
           position="top-center"
           theme="colored"
